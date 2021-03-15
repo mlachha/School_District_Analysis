@@ -1,2 +1,2 @@
 # School_District_Analysis
-jupyter Notebook analysis of school analysis
+jupyter Notebook - school data analysis
