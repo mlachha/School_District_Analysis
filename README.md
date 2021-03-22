@@ -28,38 +28,38 @@ in the first part of this analysis, we are going to explore the data to analyse 
 
 - Districts Details:
 - 
-![picture](Images/p1.png)
+![picture](images/p1.png)
 
 - metrics per school: 
 
-![picture](Images/2.png)
+![picture](images/2.png)
 
 - detailed matrics tables :
 
 * top 5 school based on overall passing rate.
 
-![picture](Images/3.png) 
+![picture](images/3.png) 
 
 * bottom 5 school based on overall passing rate.
 
-![picture](Images/4.png)
+![picture](images/4.png)
 
 * Average math score per grade per school.
 
-![picture](Images/5.png)
+![picture](images/5.png)
 
 * Average reading score per grade per school.
 
-![picture](Images/6.png)
+![picture](images/6.png)
 
 * Performance based on the budget per student
 
-![picture](Images/7.png)
+![picture](images/7.png)
 
 * Performance by the school size 
 
-![picture](Images/8.png)
+![picture](images/8.png)
 
 * Performance by school type
 
-![picture](Images/9.png)
+![picture](images/9.png)
