@@ -63,18 +63,19 @@ for that we will :
 
 nullify all 9th graders math and reading scores:
 
- ```python
+
+```python
 student_data_df.loc[(student_data_df["grade"] == "9th") & (student_data_df["school_name"] == "Thomas High School"), ["math_score","reading_score"]] = np.nan
  ```
+
+
 - we can see that here :
 ![picture](images/20.png)
 
-- Districts Details become :
-- 
+- Districts Details become : 
 ![picture](images/10.png)
 
 - metrics per school become: 
-- 
 ![picture](images/11.png)
 
 we can see that Thomas High School's average scores went down by about the third.
@@ -100,19 +101,25 @@ we can see no effect on the bottom shools.
 
 we see a Nan for 9th grad for Thomas High School
 
-* new Average reading score per grade per school.
+* new Performance based on the budget per student
 ![picture](images/16.png)
 
-* new Performance based on the budget per student
+* new Performance by the school size 
 ![picture](images/17.png)
 
-* new Performance by the school size 
+* new Performance by school type
 ![picture](images/18.png)
 
-* new Performance by school type
-![picture](images/19.png)
 
+## Conclusion:
 
+* the changes made affected little to no change on the results, because they were limited to one grade in one high school.
 
+* Thomas High School finished second in both analysis.
+
+* the changes made little difference on Thomas High School's result itself, which opens up 2 questions:
+ - since the other grades follow the same trends 9th grad scores do is there :
+   1 - manipulation of the scores beyond the 9th graders?
+   2 - no manipulation on the 9th graders scores?
 
  
