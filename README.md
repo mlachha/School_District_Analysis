@@ -70,39 +70,47 @@ student_data_df.loc[(student_data_df["grade"] == "9th") & (student_data_df["scho
 ![picture](images/20.png)
 
 - Districts Details become :
+- 
 ![picture](images/10.png)
 
 - metrics per school become: 
+- 
 ![picture](images/11.png)
 
 we can see that Thomas High School's average scores went down by about the third.
 
 In order to keep integrity and fairness on our part, we are going to replace the average scores for Thomas High School with the new averages that discount the 9th grad scores.
-![picture](images/11.png)
 
+![picture](images/12.png)
 
 ##### detailed matrics tables :
 
-* top 5 school based on overall passing rate.
-![picture](images/3.png) 
+* new top 5 school based on overall passing rate.
+![picture](images/13.png) 
+
+we can see that Thomas High School is still amongst the top 5 schools even whithout taking the contested data into account. 
 
 * bottom 5 school based on overall passing rate.
-![picture](images/4.png)
+![picture](images/14.png)
+
+we can see no effect on the bottom shools.
 
 * Average math score per grade per school.
-![picture](images/5.png)
+![picture](images/15.png)
 
-* Average reading score per grade per school.
-![picture](images/6.png)
+we see a Nan for 9th grad for Thomas High School
 
-* Performance based on the budget per student
-![picture](images/7.png)
+* new Average reading score per grade per school.
+![picture](images/16.png)
 
-* Performance by the school size 
-![picture](images/8.png)
+* new Performance based on the budget per student
+![picture](images/17.png)
 
-* Performance by school type
-![picture](images/9.png)
+* new Performance by the school size 
+![picture](images/18.png)
+
+* new Performance by school type
+![picture](images/19.png)
 
 
 
