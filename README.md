@@ -96,7 +96,7 @@ we can see that Thomas High School is still amongst the top 5 schools even whith
 
 we can see no effect on the bottom shools.
 
-* Average math score per grade per school.
+* Average scores per grade per school.
 ![picture](images/15.png)
 
 we see a Nan for 9th grad for Thomas High School
@@ -118,8 +118,11 @@ we see a Nan for 9th grad for Thomas High School
 * Thomas High School finished second in both analysis.
 
 * the changes made little difference on Thomas High School's result itself, which opens up 2 questions:
+
  - since the other grades follow the same trends 9th grad scores do is there :
+ 
    1 - manipulation of the scores beyond the 9th graders?
+   
    2 - no manipulation on the 9th graders scores?
 
  
