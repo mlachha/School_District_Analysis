@@ -27,7 +27,7 @@ in the first part of this analysis, we are going to explore data from different 
 #### Output for the initial anlysis:
 
 - Districts Details:
-![picture](images/p1.png)
+![picture](images/1.png)
 
 - metrics per school: 
 ![picture](images/2.png)
@@ -66,18 +66,21 @@ nullify all 9th graders math and reading scores:
  ```python
 student_data_df.loc[(student_data_df["grade"] == "9th") & (student_data_df["school_name"] == "Thomas High School"), ["math_score","reading_score"]] = np.nan
  ```
-we can see that here :
+- we can see that here :
 ![picture](images/20.png)
 
 - Districts Details become :
-![picture](images/p10.png)
+![picture](images/10.png)
 
 - metrics per school become: 
 ![picture](images/11.png)
+
 we can see that Thomas High School's average scores went down by about the third.
 
 In order to keep integrity and fairness on our part, we are going to replace the average scores for Thomas High School with the new averages that discount the 9th grad scores.
 ![picture](images/11.png)
+
+
 ##### detailed matrics tables :
 
 * top 5 school based on overall passing rate.
